@@ -1,10 +1,157 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(26, 32, 44);
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green {
+  color: lightgreen;
+  font-style: italic;
+}
+
+hr {
+  width: 99.7%;
+  border: 2px solid white;
+}
+
+.header {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#socialMedia {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 6vw;
+  display: flex;
+}
+
+#linkedin {
+  transition: transform .2s;
+}
+
+#linkedin:hover {
+  transform: scale(1.5);
+}
+
+#discord {
+  transition: transform .2s;
+}
+
+#discord:hover {
+  transform: scale(1.5);
+}
+
+#youtube {
+  transition: transform .2s;
+}
+
+#youtube:hover {
+  transform: scale(1.5);
+}
+
+#fiverr {
+  transition: transform .2s;
+}
+
+#fiverr:hover {
+  transform: scale(1.5);
+}
+
+#twitter {
+  transition: transform .2s;
+}
+
+#twitter:hover {
+  transform: scale(1.5);
+}
+
+@media(min-device-width: 986px) {
+  .myImg {
+    border: 2px solid white;
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+  }
+
+  #pgraph {
+    border: 2px solid white;
+    float: right;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+  }
+
+  #name {
+    color: white;
+    font-weight: 100;
+    padding-left: 40px;
+  }
+
+  #introText {
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+  }
+
+  .spacer {
+    width: 6vw;
+  }
+}
+
+@media(max-device-width: 985px) {
+  .myImg {
+    border: 2px solid white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  #pgraph {
+    border: 2px solid white;
+    font-size: 8vw;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+  }
+
+  #name {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+  }
+
+  #introText {
+    text-align: center;
+    color: white;
+  }
+
+  .spacer {
+    width: 3vw;
+  }
+
+  .vSpacer {
+    height: 4vw;
+  }
 }
 
 code {
